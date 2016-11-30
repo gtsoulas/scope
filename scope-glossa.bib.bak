@@ -106,6 +106,18 @@
   Timestamp                = {2010.09.02}
 }
 
+@InCollection{beghelli-stowell:1997a,
+  Title                    = {Distributivity and Negation: The Syntax of {\it Each} and {\it Every}},
+  Author                   = {Fillipo Beghelli and Tim Stowell},
+  Booktitle                = {Ways of Scope Taking},
+  Publisher                = {Kluwer Academic Publishers},
+  Year                     = {1997},
+  Address                  = {Dordrecht},
+  Editor                   = {Anna Szabolcsi},
+  Pages                    = {71--107},
+  Topic                    = {nl-quantifier-scope;nl-quantifiers;distributivity-of-quantifiers;}
+}
+
 @Article{biberauer-sheehan:2011,
   Title                    = {Introduction: Particles through a modern Syntactic lens},
   Author                   = {Theresa Biberauer and Michelle Sheehan},
@@ -412,6 +424,16 @@
   Timestamp                = {2013.10.16}
 }
 
+@InProceedings{dowty-brodie:1984,
+  Title                    = {A Semantic analysis of `Floated Quantifiers' in a transformationless grammar},
+  Author                   = {Dowty, David and Brodie, B.},
+  Booktitle                = {Proceedings of {WCCFL}-3},
+  Year                     = {1984},
+  Organization             = {Stanford Linguistics Association},
+  Pages                    = {75--90},
+  Publisher                = {Stanford University}
+}
+
 @Book{evans:1995,
   Title                    = {A grammar of {Kayardild}},
   Author                   = {Nicholas D. Evans},
@@ -481,6 +503,15 @@
   Number                   = {1},
   Pages                    = {63--96},
   Volume                   = {33}
+}
+
+@Article{fox-nissenbaum:99,
+  Title                    = {Extraposition and scope: A case for overt {QR}},
+  Author                   = {Danny Fox and Jon Nissenbaum},
+  Journal                  = {Proceedings of WCCFL},
+  Year                     = {1999},
+  Pages                    = {132--144},
+  Volume                   = {18}
 }
 
 @Book{frajzyngier:2001,
@@ -593,6 +624,13 @@
   Year                     = {1985},
   Owner                    = {Norman},
   Timestamp                = {2012.08.22}
+}
+
+@PhdThesis{huang:1982,
+  Title                    = {Logical Relations in Chinese and the Theory of Grammar},
+  Author                   = {C. T. James Huangfox},
+  School                   = {M.I.T., Cambridge, Massachussetts},
+  Year                     = {1982}
 }
 
 @Article{huang:1982a,
@@ -740,6 +778,25 @@
   Timestamp                = {2015.10.28}
 }
 
+@InCollection{kratzer:2005,
+  Title                    = {Indefinites and the operators they depend on: From {J}apanese to {S}alish},
+  Author                   = {Angelika Kratzer},
+  Booktitle                = {Reference and Quantification: The {P}artee effect},
+  Publisher                = {CSLI Publications},
+  Year                     = {2005},
+  Address                  = {Stanford},
+  Editor                   = {G. N. Carlson and F.J. Pelletier}
+}
+
+@Book{kuno:1973,
+  Title                    = {The Structure of the {Japanese} Language},
+  Author                   = {Kuno, Susumu},
+  Publisher                = {{MIT} {Press}},
+  Year                     = {1973},
+  Address                  = {Cambridge, Mass.},
+  Keyword                  = {focus,japanese,topic}
+}
+
 @Book{lenneberg:1967,
   Title                    = {Biological foundations of language},
   Author                   = {Eric Heinz Lenneberg},
@@ -810,6 +867,16 @@
   Address                  = {Cuiab{\'a}},
   Owner                    = {wny500},
   Timestamp                = {2013.06.24}
+}
+
+@Article{miyagawa:1987,
+  Title                    = {{LF} affix raising in {Japanese}},
+  Author                   = {Shigeru Miyagawa},
+  Journal                  = {Linguistic Inquiry},
+  Year                     = {1987},
+  Number                   = {2},
+  Pages                    = {362--367},
+  Volume                   = {18}
 }
 
 @Book{miyaoka:2012,
@@ -1034,6 +1101,18 @@
   Year                     = {1998},
   Owner                    = {Norman},
   Timestamp                = {2010.09.23}
+}
+
+@Article{tsoulas:2003,
+  Title                    = {{Floating Quantifiers as Overt Scope Markers}},
+  Author                   = {George Tsoulas},
+  Journal                  = {{Korean Journal of English Language and Linguistics}},
+  Year                     = {2003},
+  Number                   = {2},
+  Pages                    = {157--180},
+  Volume                   = {3},
+  Owner                    = {Equivocal},
+  Timestamp                = {2009.03.12}
 }
 
 @Unpublished{turano:1995,
