@@ -251,6 +251,13 @@
   Timestamp                = {2013.10.16}
 }
 
+@PhdThesis{chernova:2014,
+  Title                    = {The syntax of \emph{wh}-movement in multiple (true and echo) questions: A {Q}-particle approach},
+  Author                   = {Ekaterina Chernova},
+  School                   = {Universitat de Girona},
+  Year                     = {2014}
+}
+
 @Book{chomsky:1957,
   Title                    = {Syntactic Structures},
   Author                   = {Noam Chomsky},
@@ -939,6 +946,17 @@
   Volume                   = {20},
   Owner                    = {wny500},
   Timestamp                = {2013.06.20}
+}
+
+@InCollection{pesetsky:1987,
+  Title                    = {\emph{Wh}-in-situ: Movement and unselective binding},
+  Author                   = {David Pesetsky},
+  Booktitle                = {The representation of (in)definiteness},
+  Publisher                = {MIT Press},
+  Year                     = {1987},
+  Address                  = {Cambridge, Massachusetts},
+  Editor                   = {Eric J. Reuland and Alice G. B. {ter Meulen}},
+  Pages                    = {98--129}
 }
 
 @Article{potsdam:2009,
