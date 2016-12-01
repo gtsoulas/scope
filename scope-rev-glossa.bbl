@@ -1,4 +1,4 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{45}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -163,8 +163,8 @@ Hegarty, Michael. 2005.
   Generative Grammar~79).
 \newblock Berlin: Mouton de {G}ruyter.
 
-\bibitem[{Huangfox(1982)}]{huang:1982}
-Huangfox, C. T.~James. 1982.
+\bibitem[{Huang(1982)}]{huang:1982}
+Huang, C. T.~James. 1982.
 \newblock \emph{Logical relations in chinese and the theory of grammar}:
   M.I.T., Cambridge, Massachussetts dissertation.
 
@@ -179,6 +179,16 @@ Kimper, Wendell~A. 2006.
 \newblock In Olaoba~F. Arasanyin \& Michael~A. Pemberton (eds.), \emph{Selected
   proceedings of the 36th {Annual Conference on African Linguistics}}. 75--79.
   Somerville, MA: Cascadilla.
+
+\bibitem[{Kishimoto(1992)}]{kishimoto:1992}
+Kishimoto, Hideki. 1992.
+\newblock {LF} pied piping: Evidence from {Sinhala}.
+\newblock \emph{Gengo Kenkyuu} 102. 46--86.
+
+\bibitem[{Kishimoto(2005)}]{kishimoto:2005}
+Kishimoto, Hideki. 2005.
+\newblock Wh-in-situ in sinhala questions.
+\newblock \emph{Natural Language \& Linguistic Theory} 23. 1--51.
 
 \bibitem[{Koopman(1984)}]{koopman:1984}
 Koopman, Hilda. 1984.
@@ -250,5 +260,10 @@ Tsoulas, George. 2003.
 Turano, Giuseppina. 1995.
 \newblock On indefinite elements in {Albanian}.
 \newblock Unpublished ms., Florence.
+
+\bibitem[{Yeo(2010)}]{yeo:2010}
+Yeo, Norman. 2010.
+\newblock \emph{Unifying optional wh-movement}: University of York
+  dissertation.
 
 \end{thebibliography}

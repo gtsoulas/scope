@@ -1,11 +1,11 @@
 % see http://info.semprag.org/basics for a full description of this template
-\documentclass{glossa}
+\documentclass[charis]{glossa}
 % possible options:
 % [times] for Times font (default if no option is chosen)
 % [cm] for Computer Modern font
 % [lucida] for Lucida font (not freely available)
 % [brill] open type font, freely downloadable for non-commercial use from http://www.brill.com/about/brill-fonts; requires xetex
-% [charis] for CharisSIL font, freely downloadable from http://software.sil.org/charis/
+%[charis] for CharisSIL font, freely downloadable from http://software.sil.org/charis/
 % for the Brill and CharisSIL fonts, you have to use the XeLatex typesetting engine (not pdfLatex)
 % [biblatex] for using biblatex
 % [linguex] loads the linguex example package
@@ -13,7 +13,7 @@
 % !! a note on the use of bibtex: for PhD dissertations to typeset correctly in the references list, the Address field needs to contain the city (for US cities in the format "Santa Cruz, CA")
 
 %\addbibresource{sample.bib} % this is for use with biblatex; replace this by the name of your bib-file (extension .bib is required); comment out if you use natbib
-
+\usepackage{tipa}
 \usepackage{sectsty} %control style of section headings
 \allsectionsfont{\normalfont\sffamily\bfseries} %sans serif boldface in section headings
 \let\B\relax %to resolve a conflict in the definition of these commands between xyling and xunicode (the latter called by fontspec, called by charis)
@@ -23,8 +23,8 @@
 \usepackage{soul}
 \usepackage{latexsym}
 \usepackage{amsmath}
-\usepackage{tipa}
-\usepackage{libertine} % comment out on final compile; run XeLaTeX with Charis
+
+%\usepackage{libertine} % comment out on final compile; run XeLaTeX with Charis
 \usepackage{forest} % for nice trees!
 \usepackage{linguex}
 
@@ -37,7 +37,7 @@
 
 % Optional short title inside square brackets, for the running headers. If no short title is given, no title appears in the headers.
 
-\title[Scope assignment]{Scope assignment: From \textit{wh-} to QR}
+\title[Scope assignment]{Scope assignment: From \textit{wh-} to QR\thanks{We are first and foremost thankful to Urtzi Etxeberria for the workshop in Bayonne and for providing the impetus for the writing of this paper.  His editorial patience is second to none. For comments and suggestions we would like to thank, in alphabetical order, Ricardo Etxeparre, Kook-Hee Gil, Shin-Sook Kim, Dimitris Michelioudakis, Bernadette Plunkett, Nina Radkevich, Peter Sells, Rebecca Woods as well as the audience at the Bayonne Workshop and at research seminars in York and Cambridge.  We would also like to thank three anonymous reviewers for comments have led to many a clairification and  improvement in argument and presentation. }}
 
 % Optional short author inside square brackets, for the running headers. If no short author is given, no authors print in the headers.
 
@@ -62,7 +62,7 @@
 \maketitle
 
 \begin{abstract}
-This paper develops the theory of scope assignement as resulting of a process of selective spell-out of copies created from internal merge.  We so that so-called LF-movement is 
+This paper develops a theory of scope assignment to \textit{wh} phrases as resulting of a process of selective spell-out of copies created from internal merge.  We show that so-called LF-movement is not a viable option in the current theory of grammar.  We therofre pursue the idea that all movement is \textit{overt} and this, taken in conjuction with a tripartite structure for question formation (involving a clause-typing interrogative C, a Q particle, and a \textit{wh-phrase}) yields a transparent, syntactically driven theory of scope which we then extend, more speculatively to QR in general. 
 \end{abstract}
 
 \begin{keywords}
