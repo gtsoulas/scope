@@ -151,6 +151,17 @@
   Timestamp                = {2010.09.28}
 }
 
+@InCollection{boskovic-nunes:2007,
+  Title                    = {The copy theory of movement: A view from {PF}},
+  Author                   = {\v{Z}eljko Bo\v{s}kovi\'{c} and Jairo Nunes},
+  Booktitle                = {The copy theory of movement},
+  Publisher                = {John},
+  Year                     = {2007},
+  Address                  = {Amsterdam/Philadelphia},
+  Editor                   = {\v{Z}eljko Bo\v{s}kovi\'{c} and Jairo Nunes},
+  Pages                    = {13--74}
+}
+
 @InCollection{brandon-seki:1984,
   Title                    = {Moving interrogatives without an initial {+WH} node in {Tup\'i}},
   Author                   = {Frank Roberts Brandon and Lucy Ferreira Seki},
@@ -209,6 +220,15 @@
   Volume                   = {75},
   Owner                    = {wny500},
   Timestamp                = {2013.06.24}
+}
+
+@Article{butler-mathieu:2005,
+  Title                    = {Split-{DP}s, generalized {EPP} and visibility},
+  Author                   = {Alastair Butler and Eric Mathieu},
+  Journal                  = {MIT Working Papers in Linguistics},
+  Year                     = {2005},
+  Pages                    = {49--57},
+  Volume                   = {2005}
 }
 
 @PhdThesis{cable:2007,
@@ -635,7 +655,7 @@
 
 @PhdThesis{huang:1982,
   Title                    = {Logical Relations in Chinese and the Theory of Grammar},
-  Author                   = {C. T. James Huangfox},
+  Author                   = {C. T. James Huang},
   School                   = {M.I.T., Cambridge, Massachussetts},
   Year                     = {1982}
 }
