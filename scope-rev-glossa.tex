@@ -1,11 +1,11 @@
 % see http://info.semprag.org/basics for a full description of this template
-\documentclass{glossa}
+\documentclass[charis]{glossa}
 % possible options:
 % [times] for Times font (default if no option is chosen)
 % [cm] for Computer Modern font
 % [lucida] for Lucida font (not freely available)
 % [brill] open type font, freely downloadable for non-commercial use from http://www.brill.com/about/brill-fonts; requires xetex
-% [charis] for CharisSIL font, freely downloadable from http://software.sil.org/charis/
+%[charis] for CharisSIL font, freely downloadable from http://software.sil.org/charis/
 % for the Brill and CharisSIL fonts, you have to use the XeLatex typesetting engine (not pdfLatex)
 % [biblatex] for using biblatex
 % [linguex] loads the linguex example package
@@ -13,7 +13,7 @@
 % !! a note on the use of bibtex: for PhD dissertations to typeset correctly in the references list, the Address field needs to contain the city (for US cities in the format "Santa Cruz, CA")
 
 %\addbibresource{sample.bib} % this is for use with biblatex; replace this by the name of your bib-file (extension .bib is required); comment out if you use natbib
-
+\usepackage{tipa}
 \usepackage{sectsty} %control style of section headings
 \allsectionsfont{\normalfont\sffamily\bfseries} %sans serif boldface in section headings
 \let\B\relax %to resolve a conflict in the definition of these commands between xyling and xunicode (the latter called by fontspec, called by charis)
@@ -23,8 +23,8 @@
 \usepackage{soul}
 \usepackage{latexsym}
 \usepackage{amsmath}
-\usepackage{tipa}
-\usepackage{libertine} % comment out on final compile; run XeLaTeX with Charis
+
+%\usepackage{libertine} % comment out on final compile; run XeLaTeX with Charis
 \usepackage{forest} % for nice trees!
 \usepackage{linguex}
 
@@ -32,12 +32,12 @@
 
 % \pdf* commands provide metadata for the PDF output. ASCII characters only!
 \pdfauthor{George Tsoulas; Norman Yeo}
-\pdftitle{Scope assignment: From wh- to QR}
+\pdftitle{Scope assignment: From wh to QR}
 \pdfkeywords{Full keyword list, separated, by, commas}
 
 % Optional short title inside square brackets, for the running headers. If no short title is given, no title appears in the headers.
 
-\title[Scope assignment]{Scope assignment: The case of \textit{wh-}}
+\title[Scope assignment]{Scope assignment: From \textit{wh-} to QR\thanks{We are first and foremost thankful to Urtzi Etxeberria for the workshop in Bayonne and for providing the impetus for the writing of this paper.  His editorial patience is second to none. For comments and suggestions we would like to thank, in alphabetical order, Ricardo Etxeparre, Kook-Hee Gil, Shin-Sook Kim, Dimitris Michelioudakis, Bernadette Plunkett, Nina Radkevich, Peter Sells, Rebecca Woods as well as the audience at the Bayonne Workshop and at research seminars in York and Cambridge.  We would also like to thank three anonymous reviewers for comments have led to many a clairification and  improvement in argument and presentation. }}
 
 % Optional short author inside square brackets, for the running headers. If no short author is given, no authors print in the headers.
 
@@ -62,18 +62,20 @@
 \maketitle
 
 \begin{abstract}
-This is an abstract.
+This paper develops a theory of scope assignment to \textit{wh} phrases as resulting of a process of selective spell-out of copies created from internal merge.  We show that so-called LF-movement is not a viable option in the current theory of grammar.  We therefore pursue the idea that all movement is \textit{overt} and this, taken in conjunction with a tripartite structure for question formation (involving a clause-typing interrogative C, a Q particle, and a \textit{wh-phrase}) yields a transparent, syntactically driven theory of scope which we then extend, more speculatively to QR in general. 
 \end{abstract}
 
 \begin{keywords}
-  wh-movement; wh-in-situ; Quantifier Raising; Logical Form; questions; interrogatives; particles
+
+  wh-movement; wh-in-situ; Quantifier Raising; Logical Form; questions; interrogatives; particles; LF-movement
+
 \end{keywords}
 
 %\hrulefill
 
 \rmfamily
 \section{Introduction}
-The notion of scope of an operator is fundamental for semantic computation. It is also one of the few notions that seems to have a direct translation between syntax and semantics. The syntactic structure is, in terms of scope assignment, transparent to the semantic interpretation.  In other words, the scope of operators is equal to their C-command domain.  As a result, insofar as syntax is driven by the need to satisfy interface requirements and in this case requirements of the syntax-semantics interface, a prime concern of syntactic theory is to get operators to their scope positions. From a general point of view, theoretical parsimony and economy have dictated a preference for the elimination of provably superfluous operations in the derivation of structure. Under the copy theory of movement \citep{chomsky:1993}, links in a chain are copies. In fact, under current assumptions, they are not identical and independently merged at different positions, somehow identified as part of a chain. To make the maximal use of this formal representation we propose that certain cases of LF-movement\footnote{Ideally, to be maximally economical, the entire notion LF-movement should be eliminated, but our aims here are somewhat more modest.} can be eliminated from a theory of grammar and replaced by a theory of selective spell-out (SSO), schematically shown as follows:
+The notion of scope of an operator is fundamental for semantic computation. It is also one of the few notions that seems to have a direct translation between syntax and semantics. The syntactic structure is, in terms of scope assignment, transparent to the semantic interpretation.  In other words, the scope of operators is equal to their C-command domain.  As a result, insofar as syntax is driven by the need to satisfy interface requirements and in this case requirements of the syntax-semantics interface, a prime concern of syntactic theory is to get operators to their scope positions. From a general point of view, theoretical parsimony and economy have dictated a preference for the elimination of provably superfluous operations in the derivation of structure. The copy theory of movement \citep{chomsky:1993}, a necessary reinterpretation of the the mechanisms of movement under the inclusiveness/No Tampering condition, and its more recent further reinterpretation has converged on the idea that links in a chain are the result of successive merging of an element that just happens to be already part of the existing structure. Within derivations, phase-based memory ensure that there is a distinction between copies and repetitions of the same element. To make the maximal use of this formal representation we propose that certain cases of LF-movement\footnote{Ideally, to be maximally economical, the entire notion LF-movement should be eliminated, but our aims here are somewhat more modest.} can be eliminated from a theory of grammar and replaced by a theory of selective spell-out (SSO), schematically shown as follows:
 
 \ex.\label{intro10}\a.XP {\dots} \textst{XP} $\qquad$ (moved construction)
     \b.\textst{XP} {\dots} XP $\qquad$ (in-situ construction)
@@ -110,9 +112,9 @@ It is well known that languages vary in terms of whether they are wh-movement or
 \ex.\label{wh.10}\a.\label{2.10a}What$_i$ did [John buy $t_i$]?
 	\b.\label{2.10b}[John bought a book].
 
-Wh-movement, in a sense, is the syntactic and semantic equivalent of bilocation because some part of the meaning of a wh-phrase needs to be interpreted in two places at once. A common assumption among scholars is that a wh-phrase in a wh-movement langauge is an operator, i.e. it expresses existential quantification. As such, it is necessary for the wh-phrase to move to a position in the clausal periphery such that it scopes over the entire proposition including the moved subject -- this is why wh-movement involves movement to a position in the CP-layer, which is higher than the subject, which has moved to [Spec,TP]. At the same time, because the wh-phrase is also the argument of the verb, it must be interpreted as such in the base position from which it moves. Syntactic displacement, therefore, gives rise to semantic displacement.
+Wh-movement, in a sense, is the syntactic and semantic equivalent of bilocation because some part of the meaning of a wh-phrase needs to be interpreted in two places at once. A common assumption among scholars is that a wh-phrase in a wh-movement language is an operator, i.e. it expresses existential quantification. As such, it is necessary for the wh-phrase to move to a position in the clausal periphery such that it scopes over the entire proposition including the moved subject -- this is why wh-movement involves movement to a position in the CP-layer, which is higher than the subject, which has moved to [Spec,TP]. At the same time, because the wh-phrase is also the argument of the verb, it must be interpreted as such in the base position from which it moves. Syntactic displacement, therefore, gives rise to semantic displacement.
 
-As mentioned in the introduction, the traditional assumption is that moving the wh-phrase (either overtly or at LF) leaves a trace that is interpreted as a variable. Wh-movement is necessary in order for the moved wh-phrase to bind the trace/variable resulting in existential quantification, as shown below. The is why wh-elements are also called wh-operators: the moved wh-element is interpreted as an existential quantifier $\exists x_{wh}$ that binds the trace left by movement, which is interpreted as a variable $x_{wh}$:
+As mentioned in the introduction, the traditional assumption is that moving the wh-phrase (either overtly or at LF) leaves a trace that is interpreted as a variable. Wh-movement is necessary in order for the moved wh-phrase to bind the trace/variable resulting in existential quantification, as shown below. This is why wh-elements are also called wh-operators: the moved wh-element is interpreted as an existential quantifier $\exists x_{wh}$ that binds the trace left by movement, which is interpreted as a variable $x_{wh}$:
 
 \ex.\label{wh.20}$\exists x_{wh}[\dots P(x_{wh})\ \dots]$
 
@@ -121,9 +123,10 @@ The expression in \ref{wh.20}, however, is still not the meaning of a question. 
 \ex.\label{wh.30}\a.$\lambda p\exists x_{wh}[p = P(x_{wh})]$
    \b.The set of propositions $p$ such that there exists an $x_{wh}$ (wh-phrase) that has property $P$ (the predicate)
 
-This straightforwardly follows from approaches to question semantics as involving a set of propositions (Hamblin 1973; Karttunnen 1977). Such an approach is also compatible with well-known cases of languages that have wh-indefinites: wh-words that are interpreted existentially in declarative contexts. In other words, the lack of interrogative C precludes the availability of question meaning, resulting in a declarative involving existential quantification as in \ref{wh.20}. The upshot is that all languages, regardless of the syntactic means by which they derive a wh-construction, must converge on the question meaning expressed in \ref{wh.30} via interrogative C. Considered in the context of a copy theory of movement, a problem immediately arises because a copy theory should not allow the formation of trace variables because they are no longer syntactic primitives, i.e. material left behind after movement. This seriously undermines the notion of treating the wh-phrase as an existential ``wh-operator'' if its movement does not introduce a variable to bind.
+This straightforwardly follows from approaches to question semantics as involving a set of propositions (Hamblin 1973; Karttunnen 1977).  Equally, such an approach finds direct empirical support in well-known cases of languages that have wh-indefinites: wh-words that are interpreted existentially in declarative contexts. In other words, the lack of interrogative C precludes the availability of question meaning, resulting in a declarative sentence involving existential quantification as in \ref{wh.20}. The upshot is that all languages, regardless of the syntactic means by which they derive a wh-construction, must converge on the question meaning expressed in \ref{wh.30} via interrogative C. Considered in the context of a copy theory of movement, a problem immediately arises because a copy theory should not allow the formation of trace variables because they are no longer syntactic primitives, i.e. material left behind after movement. This seriously undermines the notion of treating the wh-phrase as an existential ``wh-operator'' if its movement does not introduce a variable to bind.  As noted earlier, this is also a problem for the approach to movement/internal merge based on the inclusiveness/no tampering condition.  It follows that much of the traditional understanding of wh-question formation must be re-thought if the basic principles of the copy-theory of movement are correct
 
-A potential solution to this problem can be found in the introduction of a third element in question formation. In addition to interrogative C and the wh-phrase, it is becoming increasingly common to assume that in all languages, questions are formed with the help of a Q(uestion) particle, and in the early days of GB and Minimalism, it was common to assume that Q was the realisation of an interrogative C head. However, from \cite{watanabe:1992} to \cite{hagstrom:1998}, and other more recently, following \cite{cable:2007}, \cite{yeo:2010}, \cite{slade:2011} and \cite{chernova:2014}, all put forward analyses that treat Q as distinct from interrogative C, claiming that there are, in fact, three required elements in question formation: the wh-phrase, Q, and interrogative C. The combination of Q and the wh-phrase yields an indefinite when bound by interrogative C. This will be fleshed out in more detail in Section 3, but it turns out that a desirable consequence of such an approach is that the Q+wh complex is no longer a wh-operator and does not need to bind a variable. This allows us to maintain uniformity of copies across the head and tail of the chain. Before addressing the theoretical issues, let us first consider the empirical surface phenomena that an SSO approach will need to account for, keeping in mind that the ultimate aim is to explain the surface variation in terms of the spellout of different copies of the Q+wh complex.
+
+A potential solution to this problem can be found in the introduction of a third element in question formation. In addition to interrogative C and the wh-phrase, it is becoming increasingly common to assume that in all languages, questions are formed with the help of a Q(uestion) particle, and in the early days of GB and Minimalism, it was common to assume that Q was the realisation of an interrogative C head. However, syntactic analysis and theorizing from Watanabe (1992) and Hagstrom (1998), to more recent analyses (Cable 2007, Slade 2011, Yeo 2010), posits that Q is distinct from interrogative C, and that there are, in fact, three required elements in question formation: the wh-phrase, Q, and interrogative C. The combination of Q and the wh-phrase yields an indefinite when bound by interrogative C. This will be fleshed out in more detail in Section 3, but it turns out that a desirable consequence of such an approach is that the Q+wh complex is no longer a wh-operator and does not need to bind a variable. This allows us to maintain uniformity of copies across the head and tail of the chain. Before addressing the theoretical issues, let us first consider the empirical surface phenomena that an SSO approach will need to account for, keeping in mind that the ultimate aim is to explain the surface variation in terms of the spellout of different copies of the Q+wh complex.
 
 Empirically, we find that the position of the wh-phrase and Q can vary along at least two dimensions:\footnote{There are other potential dimensions of variation that we do not discuss here. One is the headedness of the QP in languages that have clear QP constituents, e.g. Sinhala, Tlingit; another is the landing site of wh-movement, e.g. movement to Force vs. Focus positions.} first, the particle can occur in a clause-initial position, clause-final position or in a position adjacent to the wh-word; second, the wh-phrase can occur in a clause-initial (wh-movement) or base position (wh-in-situ). For expository purposes, we will postpone discussion of optional wh-movement and partial wh-movement cases to section 3.
 
@@ -142,7 +145,7 @@ The broad typological distribution is as follows. Wh-movement languages that hav
   who you \textsc{neg-aux} thing we gave-\textsc{rel} {} {} know Q \\
   \trans{`To whom don't you know what we have given?'}\hspace{\fill}[Vata, \cite{koopman:1984}]
 
-Likewise for wh-in-situ languages, we find initial, wh-adjacent and final particles in Tumbuka, Sinahla and Japanese, respectively:
+Likewise for wh-in-situ languages, we find initial, wh-adjacent and final particles in Tumbuka, Sinhala and Japanese, respectively:
 
 \exg.\label{wh.80}kasi Su\v{z}o a-ka-p\textsuperscript{h}ik-a vi\v{c}i \\
   Q Su\v{z}o \textsc{sm-pst}-cook-\textsc{fv} what \\
@@ -150,7 +153,7 @@ Likewise for wh-in-situ languages, we find initial, wh-adjacent and final partic
 
 \exg.\label{wh.90}Sunil mon{\textschwa}wa {d\textschwa} kieuwe \\
   Sunil what Q read.\textsc{pst.e} \\
-  \trans{`What did Sunil read?'}\hspace{\fill}[Sinahala, \cite{slade:2011}]
+  \trans{`What did Sunil read?'}\hspace{\fill}[Sinhala, \cite{slade:2011}]
 
 \exg.\label{wh.100}John-ga nani-o nomimasita ka \\
   John-\textsc{nom} what-\textsc{acc} drank Q \\
@@ -426,7 +429,7 @@ So far, we have seen two ways of marking wh-scope: ``standard'' wh-movement to a
       \trans{`What did Sunil read?'}
    \bg.*\label{sso.31b}Sunil mon{\textschwa}wa kieuwe d{\textschwa}?\\
       Sunil what read-E Q\\
-      \trans{`What did SUnil read?'}
+      \trans{`What did Sunil read?'}
    \bg.\label{sso.31c}Sunil kieuwe mon{\textschwa}wa d{\textschwa}?\\
       Sunil read-E what Q \\
       \trans{`What did Sunil read?'}
@@ -539,7 +542,7 @@ Finally, \ref{sso.90f} corresponds to a very typical wh-in-situ language with a 
 
 \ex.\label{sso.94}John $\langle$what \sout{Q}$\rangle$ drank $\langle$\sout{what } Q$\rangle$?
 
-Discontinuous structures like \ref{sso.90c}, exemplified by Vata (example in \ref{wh.70}), are slightly more complicated, but there is nothing inherent in our system that prevents spelling out the wh-phrase in the left periphery and followed by the abovementioned Q-migration of the particle to the right periphery. What is important is that scope marking is nevertheless achieved in such a configuration -- assuming that both wh and Q are at the peripheries, then what is relevant for us is that scope is marked appropriately. There is more to say on this matter: \cite{bayer:1999} discusses complementizer systems in so-called ``hybrid'' languages, and the very first set of examples that Bayer shows are (co)incidentally from Vata \citep{koopman:1984}:
+Discontinuous structures like \ref{sso.90c}, exemplified by Vata (example in \ref{wh.70}), are slightly more complicated, but there is nothing inherent in our system that prevents spelling out the wh-phrase in the left periphery and followed by the above mentioned Q-migration of the particle to the right periphery. What is important is that scope marking is nevertheless achieved in such a configuration -- assuming that both wh and Q are at the peripheries, then what is relevant for us is that scope is marked appropriately. There is more to say on this matter: \cite{bayer:1999} discusses complementizer systems in so-called ``hybrid'' languages, and the very first set of examples that Bayer shows are (co)incidentally from Vata \citep{koopman:1984}:
 
 \`al\'O$_i$ \`n n{\textvbaraccent{I}} [z\={E}$_j$ [\`a ny{\textvbaraccent{E}}-{\textroundcap{b}\textvbaraccent{O}} $t_i$ $t_j$]] y\`i l\`a\\
 
@@ -554,7 +557,7 @@ Discontinuous structures like \ref{sso.90c}, exemplified by Vata (example in \re
 
 \ex.\label{sso.96}[$_{CP2}$ $\langle$what \sout{Q}$\rangle$ [$_{CP1}$ [you \textsc{neg} thing we gave $\langle$ \sout{what Q}$\rangle$ know] $\langle$ \sout{what} Q$\rangle$]]
 
-We have emphasised throughout this paper that the single unwavering requirement of clause typing is the presence of interrogative C. There is also a general requirement to mark scope, which we argued was the reason why Sinhala, which has the QP completely in-situ, resorts to verb movement and morphology for scope marking. However, while there is a crosslinguistic preference to mark scope overtly, it is by no means a language universal. While it is probably universal (and to an extent theoretically necessary) that the scope of a wh-phrase must be fixed, it is not the case that scope marking is universally overt. In the next section, we discuss the issue of Quantifier Raising, which is some sense is the opposite of scope marking -- QR is precisely used to fix the scope of a quantifier that overtly is in the wrong place for interpretation. Returning to wh-constructions, many languages freely permit wh-in-situ constructions with no corresponding particle, such as Babine-Witsuwit'en, discussed above. In order to account for clause typing, \cite{denham:1997,denham:2000} posited the existence of a Ty(ping)P, which hosts an operator that binds a wh-phrase. Wh-movement, in turn, is determined by the (optional) projection of C. The tree below shows a representive structure of a partial wh-movement case, which is a modified version of Denham's analysis updated to be more in-line with modern structures. Babine-Witsuwit'en is verb final but the structure shown below is uniformly head-initial for clarity:
+We have emphasised throughout this paper that the single unwavering requirement of clause typing is the presence of interrogative C. There is also a general requirement to mark scope, which we argued was the reason why Sinhala, which has the QP completely in-situ, resorts to verb movement and morphology for scope marking. However, while there is a crosslinguistic preference to mark scope overtly, it is by no means a language universal. While it is probably universal (and to an extent theoretically necessary) that the scope of a wh-phrase must be fixed, it is not the case that scope marking is universally overt. In the next section, we discuss the issue of Quantifier Raising, which is some sense is the opposite of scope marking -- QR is precisely used to fix the scope of a quantifier that overtly is in the wrong place for interpretation. Returning to wh-constructions, many languages freely permit wh-in-situ constructions with no corresponding particle, such as Babine-Witsuwit'en, discussed above. In order to account for clause typing, \cite{denham:1997,denham:2000} posited the existence of a Ty(ping)P, which hosts an operator that binds a wh-phrase. Wh-movement, in turn, is determined by the (optional) projection of C. The tree below shows a representative structure of a partial wh-movement case, which is a modified version of Denham's analysis updated to be more in-line with modern structures. Babine-Witsuwit'en is verb final but the structure shown below is uniformly head-initial for clarity:
 
 \ex.\label{sso.100}\begin{forest} baseline
       [TyP, for tree={parent anchor=south, child anchor=north, align=center, base=top, l sep=1em, s sep=1em}
@@ -627,7 +630,7 @@ To sum up this section, we have argued that in the presence of interrogative C, 
 
 
 \section{On Quantifier Raising}
-Assuming the mechanism of SSO for scope marking in cases of wh scope the question that naturally arises is whether there is something special about wh questions -- perhaps linked to the fact that they introduce propositional alternatives and that this can only be achieved wth certain syntactic technology -- or, alternatively, whether the mechanisms described are general and apply to scope setting in a more general way.  The latter would obviously be the preferred option.  In this connection we need to turn, however briefly, to the question of QR.  It is clear, to begin with, that the comparison between the ingredients involved in the cases of wh and in the case of QR are not the same.  The main difference is that there is no equivalent of an interrogative C in scope assignment via QR.  Now, while a majority of scholars agrees that some rule with the effect of QR is required, taking this effect to be scope assignment and type mismatch repair, there is also widespread skepticism concerning whehter QR is the right rule.  The skepticism originates mostly in the realisation that the unrestricted nature of QR ought to produce more scope combinations than what is actually observed. This is what\cite{szabolcsi:1997c} calls the
+Assuming the mechanism of SSO for scope marking in cases of wh scope the question that naturally arises is whether there is something special about wh questions -- perhaps linked to the fact that they introduce propositional alternatives and that this can only be achieved with certain syntactic technology -- or, alternatively, whether the mechanisms described are general and apply to scope setting in a more general way.  The latter would obviously be the preferred option.  In this connection we need to turn, however briefly and speculatively, to the question of QR.  It is clear, to begin with, that the comparison between the ingredients involved in the cases of wh and in the case of QR are not the same.  The main difference is that there is no equivalent of an interrogative C in scope assignment via QR.  Now, while a majority of scholars agrees that some rule with the effect of QR is required, taking this effect to be scope assignment and type mismatch repair, there is also widespread scepticism concerning whether QR is the right rule.  The scepticism originates mostly in the realisation that the unrestricted nature of QR ought to produce more scope combinations than what is actually observed. This is what\cite{szabolcsi:1997c} calls the
 \emph{semantically blind rule of scope assignment}.  She writes:
 
 \ex.  [this rule] \ldots roughly speaking ``prefixes'' an expression
@@ -641,7 +644,7 @@ irrespective of what operator $\beta$ may occur in $\mathcal{D}$:
 \cite[109]{szabolcsi:1997c}
 \end{flushright}
 
-Furthermore, save for a few relatively controversial cases where QR is argued to be overt \citep{fox-nissenbaum:99} QR is a covert operation.  In our terms, it would appear that contrary to wh elements which -in wh movement languages- show a preference for highest-copy spellout, in cases of QR, there is a preference for  \textit{lower copy spellout}.  QR and wh-scope are not the mirror image of one another, of course, since other movement may have taken place before QR.  To summarise, QR seems to have the following properties:
+Furthermore, save for a few relatively controversial cases where QR is argued to be overt \citep{fox-nissenbaum:99} QR is a covert operation.  In our terms, it would appear that contrary to wh elements which -in wh movement languages- show a preference for highest-copy spellout, in cases of QR, there is a preference for  \textit{lower copy spellout}.  In fact this is more than a preference, it is almost a requirement for QR.  QR and wh-scope are not the mirror image of one another, of course, since other movement may have taken place before QR.  To summarise, QR seems to have the following properties:
 
 
 \ex. \label{qr-props}
@@ -652,8 +655,10 @@ Furthermore, save for a few relatively controversial cases where QR is argued to
 \e.  It is semantically blind
 
 
-Empirically, it is well known that not all different possible scopes are derivable and more importantly there so-called \textit{surface scope} languages such as Japanese or Korean where as established as early as \citet{kuno:1973} scope ambiguities only arise if one scope bearing element has overtly moved over another.  Thi sis clear evidence in favour of taking scope assignement in general to be regulated by SSO, deriving reconstruction, though in many cases there will be interfering factors that obscure the effects, e.g. scrambling.
-Within the theory developed in this paper we can sketch an approach to QR along the following lines.  We adopt the feature-based approach to scope assignemt due to \citet{beghelli-stowell:1997a} as an answer to the issue of overgeneration.  The structure \citet{beghelli-stowell:1997a} propose is given in \Next:
+Empirically, it is well known that not all different possible scopes are derivable and more importantly there so-called \textit{surface scope} languages such as Japanese or Korean where as established as early as \citet{kuno:1973} scope ambiguities only arise if one scope bearing element has overtly moved over another.  This is clear evidence in favour of taking scope assignment in general to be regulated by SSO, deriving reconstruction, though in many cases there will be interfering factors that obscure the effects, e.g. scrambling.
+Typologically, it appears that wh in situ languages favour also surface scope.   The extent and significance of this observation is not entirely clear to us but it is suggestive.
+
+Within the theory developed in this paper we are led to an  approach to QR that would make it a standard case of internal merge except that, if we understand QR in the standard way, the lower copy is always the privileged one.  We can, however, go a little further and sketch an approach to QR along the following lines.  To begin with, we adopt the feature-based approach to scope assignment due to \citet{beghelli-stowell:1997a} as an answer to the issue of overgeneration and to the issue of the restriction of the target of QR to an adjoined position to IP.  The structure \citet{beghelli-stowell:1997a} propose is given in \Next:
 
 \ex.
 
@@ -668,17 +673,17 @@ Within the theory developed in this paper we can sketch an approach to QR along 
 ]]]]]]]
 \end{forest}
 
-Abstracting away from the presence of Agr nodes, this structure has dedicated scope positions for different types of QPs.  Scope for a particular DP is the result of either movement of the QP to the spec of the releevant scope head, or, we can extend the proposal, the result of the establishement of an AGREE relation between the scope head and the QP.  The general approach runs as fllows:  Suppose that the scope-marking functional heads optionally project, unless forced to do so.  Suppose further that subjects always move out of the vP phase to Spec,TP, for independent reasons.
+Abstracting away from the presence of Agr nodes, this structure shows dedicated scope positions for different types of QPs.  Scope for a particular QP is the result of either movement of the QP to the specifier of the relevant scope head, or, extending the proposal, the result of the establishment of an AGREE relation between the scope head and the QP.  It can be expected that in some languages the scope heads will have overt realisations.  The general approach runs as follows:  Suppose that the scope-marking functional heads optionally project, unless forced to do so.  Suppose further that subjects always move out of the vP phase to Spec,TP, for independent reasons.
+More specifically, consider the case of an object DP.  If no scope head is merged, the DP in question will not move and will remain in the vP.   All other things being equal, given the  PIC, it will be subject to transfer at the relevant point and will have, as a result narrow scope or rather it has no scope to speak of. Suppose now that DistP does project, then DP in question will enter into an AGREE relation with Dist and will be  interpreted distributively with scope corresponding to the Dist head's position.  In the present setting whether or not the DP actually moves will be determined by the presence of an EPP feature on Dist.
+For reasons that go beyond the reach of this paper, `every' forces Dist to project, while `all' allows Dist to optionally project.\footnote{This is probably connected to the more general question of the lexical-functional distinction. \cite{hegarty:93,hegarty:05} for example has suggested following a tradition that goes back to \citet{abney:87} and much work since that functional heads/features are interpolated  as needed to match those of lexical categories.}
+  
+To complete the picture, for non-universals, one option would be to  suppose that there's some projection, say ExistP above IP, where existential closure usually applies \citep{kratzer:2005}. So in the case of  `Everyone loves someone', `everyone' must always raise, since it's the subject. Then depending on whether or not ExistP is projected,  wide/narrow existential scope can be derived.  Setting aside, for good reason, the role played by interrogative C, it appears that scope in general involves two parts.  A scope marker/head equivalent to the Q particle and a QP equivalent to the wh word.  A case where these are overt is that of floating quantifiers.  As noted by \citet{dowty-brodie:1984} floating quantifiers fix the scope of the DP that they associate with at the position of the floating quantifier.  \citet{tsoulas:2003} proposed that they are indeed scope markers generated directly in the relevant scope heads.  But we can combine this insight with the more traditional stranding analysis in terms of the analysis of wh-scope.  In other words the [Q+DP] constituent will be exactly parallel to the [Q+wh] constituent that we encountered earlier.
+The proposed account separates the different functions attributed to QR. The core suggestion is that to the extent that QR corresponds to a rule of internal merge that has as (perhaps one of) its effect(s) the creation of an operator - variable construct then it should be treated on a par with other instances of internal merge that result in the same representations.  A fundamental question here is whether there is a residue of cases for which this account proves inadequate. We will leave this question open. 
 
-Thus, for some object QP, if DistP does not project, QP-obj must remain in the vP -given the  PIC- and has, as a result narrow scope or rather it has no scope to speak of. Suppose now that DistP does project, then QP-obj must move to the vP-edge in order to be able to enter into an AGREE relation with Dist. The QP-obj is then interpreted distributively with scope corresponding to the Dist head's position.
-Take now the case where one of the scope heads, say Dist, is overt, then the QP must move to the vP-edge, since there is no longer the choice of optionally projecting DistP and the reading will always be a distributive one.  For reasons that go beyond the reach of this paper, `every' forces Dist to project, while `all' allows Dist to optionally project.
-To complete the picture, for non-universals, one option would be to  suppose that there's some projection, say ExistP above IP, where existential closure usually applies \citep{kratzer:2005}. So in the case of  `Everyone loves someone', `everyone' must always raise, since it's the subject. Then depending on whether or not ExistP is projected,  wide/narrow existential scope can be derived.
+Sketchy though it is, however, the above account suggests that it is possible to unify the scope assignment mechanisms that are seen in detail in the case of wh scope with the way scope is assigned in general.  
 
-Sketchy though it is, the above account suggests that it is possible to unify the scope assignement mechanisms that are seen in detail in the case of wh scope with the way scope is assigned in general.  Setting aside, for good reason, the role played by interrogative C, it appears that scope in general involves two parts.  A scope marker/head equivalent to the Q particle and a QP equivalent to the wh word.  A case where these are overt is that of floating quantifiers.  As noted by \citet{dowty-brodie:1984} floating quantifiers fix the scope of the DP that they associate with at the position of the floating quantifier.  \citet{tsoulas:2003} proposed that they are indeed scope markers generated directly in the relevant scope heads.  But we can combine this insight with the more traditional stranding analysis in terms of the analysis of wh-scope.  In other words the [Q+DP] constituent will be exactly parallel to the [Q+wh] constituent that we encountered earlier.
-
-
-\section{Conclusions}
-In this paper we have claimed that a careful consideration of the mechanisms of scope assignment to wh elements in questions shows that the best analysis is in terms of selective spellout rather than other mechanisms.  When undersood properly, the same mechanism extends naturally to scope assignemnt in general given relatively netural assumptions about the phrase structure of scope and the relations between scope markers and scope takers.  If this analysis is on the right track, and there is no doubt a great deal remains to be done, scope mechanisms can be dispensed altogether as scope assignment can be achieved through other generally available means.
+\section{Concluding remarks}
+We started out with the idea that a  careful account of the mechanisms involved in the derivation of \textit{wh}-questions with a focus on the ways that scope of \textit{wh}-elements is determined   claimed that a careful consideration of the mechanisms of scope assignment to wh elements in questions shows that the best analysis is in terms of selective spellout rather than other mechanisms.  When understood properly, the same mechanism extends naturally to scope assignment in general given relatively neutral assumptions about the phrase structure of scope and the relations between scope markers and scope takers.  If this analysis is on the right track, and there is no doubt a great deal remains to be done, scope mechanisms can be dispensed altogether as scope assignment can be achieved through other generally available means.
 
 
 \newpage
@@ -723,7 +728,7 @@ In this paper we have claimed that a careful consideration of the mechanisms of 
 %     \item Floating quantifiers are generalised D-operators and don't need scope marking since they mark scope where they are, $\lambda Q\lambda P.\forall x[P(x) \to Q(x)]$, i.e. they take the VP as its first argument, i.e. they are not determiners
 % \end{itemize}
 
-\bibliography{scope-glossa}
+\bibliography{scope-glossa,fbib}
 
 
 \end{document} 
