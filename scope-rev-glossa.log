@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.28)  2 DEC 2016 00:21
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.11.28)  2 DEC 2016 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1757,7 +1757,7 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@b@toks=\toks51
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2016/12/01 v2.2b e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count185
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/elocalloc/elocalloc.sty
@@ -2240,7 +2240,13 @@ Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=DFLT;mapping=tex
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/fira/FiraSans-Regu
 lar.otf
 
-[2] [3]
+[2]
+Overfull \hbox (9.62129pt too wide) in paragraph at lines 98--99
+\EU1/CharisSIL(0)/m/n/12 In [][](3)[][], what we have is “LF-privileging” of th
+e higher copy but “PF-privileging”
+ []
+
+[3]
 Requested font "CharisSIL/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 
 14.4pt
  -> /home/george/.fonts/CharisSIL/CharisSIL-B.ttf
@@ -2373,20 +2379,14 @@ Package microtype Warning: Unknown slot number of character
 Requested font "CharisSIL/I/OT:script=latn;language=DFLT;mapping=tex-text;" at 
 12.0pt
  -> /home/george/.fonts/CharisSIL/CharisSIL-I.ttf
- [8] [9]
-Overfull \hbox (1.52635pt too wide) in paragraph at lines 184--185
-\EU1/CharisSIL(0)/m/n/12 agreement facts in Chamorro first, which is triggered 
-by overt wh-movement.
- []
-
-[10] [11]
-Overfull \hbox (3.68407pt too wide) in paragraph at lines 238--239
+ [8] [9] [10] [11]
+Overfull \hbox (3.68407pt too wide) in paragraph at lines 236--237
 \EU1/CharisSIL(0)/m/n/12 movement, which establishes an operator–variable chain
 , then LF-movement
  []
 
 [12]
-Overfull \hbox (7.09618pt too wide) in paragraph at lines 246--247
+Overfull \hbox (7.09618pt too wide) in paragraph at lines 244--245
 []\EU1/CharisSIL(0)/m/n/12 We now turn to Babine-Witsuwit’en ([][]Denham[][] []
 []1997[][]; [][]2000[][]), an Athabaskan
  []
@@ -2403,13 +2403,13 @@ Requested font "CharisSIL/I/OT:script=latn;language=DFLT;mapping=tex-text;" at
 10.0pt
  -> /home/george/.fonts/CharisSIL/CharisSIL-I.ttf
 
-Overfull \hbox (9.53064pt too wide) in paragraph at lines 336--337
+Overfull \hbox (9.53064pt too wide) in paragraph at lines 334--335
 \EU1/CharisSIL(0)/m/n/12 Empirically, Japanese provides a very clear example of
  this ([][]Hagstrom[][] [][]1998[][]):[][][][][] 
  []
 
 [19]
-Overfull \hbox (1.14891pt too wide) in paragraph at lines 367--368
+Overfull \hbox (1.14891pt too wide) in paragraph at lines 365--366
 []\EU1/CharisSIL(0)/m/n/12 While this observation is correct when interpreted i
 n isolation, it presents
  []
@@ -2422,17 +2422,17 @@ late with wh-
  []
 
 [42] [43]) [44]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 663.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 663.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 667.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 667.
  (./scope-rev-glossa.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 663.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 663.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 663.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 667.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 667.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 667.
  ) 
 Here is how much of TeX's memory you used:
  55123 strings out of 493589
  1324148 string characters out of 6143511
- 1054538 words of memory out of 5000000
+ 1055100 words of memory out of 5000000
  57865 multiletter control sequences out of 15000+600000
  16724 words of font info for 132 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
