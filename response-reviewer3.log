@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**response-reviewer1.tex
-(./response-reviewer1.tex
+**response-reviewer3.tex
+(./response-reviewer3.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -67,8 +67,8 @@ LaTeX Info: Redefining \c on input line 311.
 LaTeX Info: Redefining \d on input line 313.
 \c@tmpaEx=\count94
 )
-(./response-reviewer1.aux)
-\openout1 = `response-reviewer1.aux'.
+No file response-reviewer3.aux.
+\openout1 = `response-reviewer3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -88,29 +88,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 59.
- [1
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 64.
+[1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
-response-reviewer1.aux) ) 
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] (./response-reviewer3.aux) ) 
 Here is how much of TeX's memory you used:
- 469 strings out of 493013
- 5386 string characters out of 6133327
- 59419 words of memory out of 5000000
- 4074 multiletter control sequences out of 15000+600000
- 7976 words of font info for 28 fonts, out of 8000000 for 9000
+ 466 strings out of 493013
+ 5346 string characters out of 6133327
+ 60419 words of memory out of 5000000
+ 4075 multiletter control sequences out of 15000+600000
+ 7938 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 21i,6n,19p,2431b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
-Output written on response-reviewer1.pdf (2 pages, 71064 bytes).
+ 21i,6n,19p,1870b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on response-reviewer3.pdf (2 pages, 63701 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 31 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
