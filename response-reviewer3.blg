@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: response-reviewer3.aux
+The style file: chicago.bst
+Database file #1: scope-glossa.bib.bib
+Database file #2: fbib.bib
+Repeated entry---line 7550 of file fbib.bib
+ : @article{Reinhart:1997
+ :                       ,
+I'm skipping whatever remains of this entry
+You've used 8 entries,
+            2861 wiz_defined-function locations,
+            741 strings with 7526 characters,
+and the built_in function-call counts, 4671 in all, are:
+= -- 409
+> -- 272
+< -- 1
++ -- 73
+- -- 103
+* -- 329
+:= -- 895
+add.period$ -- 26
+call.type$ -- 8
+change.case$ -- 48
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 149
+empty$ -- 312
+format.name$ -- 111
+if$ -- 854
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 43
+num.names$ -- 84
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 98
+quote$ -- 0
+skip$ -- 160
+stack$ -- 0
+substring$ -- 231
+swap$ -- 47
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 160
+warning$ -- 0
+while$ -- 87
+width$ -- 0
+write$ -- 112
+(There was 1 error message)
