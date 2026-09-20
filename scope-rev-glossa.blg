@@ -1,61 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99e (TeX Live 2026/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: scope-rev-glossa.aux
 The style file: glossa.bst
-Database file #1: scope-glossa.bib
-Database file #2: fbib.bib
-Repeated entry---line 4130 of file fbib.bib
- : @phdthesis{Huang:1982
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22176 of file fbib.bib
- : @incollection{beghelli-stowell:1997a
- :                                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 63516 of file fbib.bib
- : @article{fox-nissenbaum:99
- :                           ,
-I'm skipping whatever remains of this entry
+Database file #1: fbib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 49 entries,
+You've used 50 entries,
             3147 wiz_defined-function locations,
-            977 strings with 12487 characters,
-and the built_in function-call counts, 27245 in all, are:
-= -- 2316
-> -- 741
-< -- 50
-+ -- 282
-- -- 209
-* -- 1541
-:= -- 4232
-add.period$ -- 224
-call.type$ -- 49
-change.case$ -- 361
-chr.to.int$ -- 49
-cite$ -- 49
-duplicate$ -- 2291
-empty$ -- 2330
-format.name$ -- 305
-if$ -- 5612
+            1078 strings with 14485 characters,
+and the built_in function-call counts, 28139 in all, are:
+= -- 2392
+> -- 759
+< -- 51
++ -- 290
+- -- 214
+* -- 1593
+:= -- 4353
+add.period$ -- 243
+call.type$ -- 50
+change.case$ -- 375
+chr.to.int$ -- 50
+cite$ -- 50
+duplicate$ -- 2378
+empty$ -- 2401
+format.name$ -- 312
+if$ -- 5822
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 445
-newline$ -- 246
-num.names$ -- 228
-pop$ -- 940
-preamble$ -- 1
-purify$ -- 255
+missing$ -- 459
+newline$ -- 265
+num.names$ -- 234
+pop$ -- 943
+preamble$ -- 2
+purify$ -- 260
 quote$ -- 0
-skip$ -- 862
+skip$ -- 892
 stack$ -- 0
-substring$ -- 1300
-swap$ -- 1015
+substring$ -- 1304
+swap$ -- 1086
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 426
+type$ -- 435
 warning$ -- 0
-while$ -- 233
+while$ -- 229
 width$ -- 0
-write$ -- 649
-(There were 3 error messages)
+write$ -- 693

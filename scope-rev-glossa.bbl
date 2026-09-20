@@ -1,4 +1,5 @@
-\begin{thebibliography}{49}
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -9,13 +10,15 @@
 
 \bibitem[{Abney(1987)}]{abney:87}
 Abney, S. 1987.
-\newblock \emph{The english noun phrase in its sentential aspect}: MIT Doctoral
-  dissertation.
+\newblock \emph{The english noun phrase in its sentential aspect}.
+\newblock Cambridge, MA: MIT Doctoral dissertation.
 
-\bibitem[{Bayer(1999)}]{bayer:1999}
-Bayer, Josef. 1999.
+\bibitem[{BAYER(1999)}]{Bayer:1999}
+BAYER, JOSEF. 1999.
 \newblock Final complementizers in hybrid languages.
-\newblock \emph{Journal of Linguistics} 35. 233--271.
+\newblock \emph{Journal of Linguistics} 35(2). 233–271.
+\newblock \doi{10.1017/s0022226799007665}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1017/s0022226799007665}.
 
 \bibitem[{Beck(1996)}]{beck:1996}
 Beck, Sigrid. 1996.
@@ -25,24 +28,24 @@ Beck, Sigrid. 1996.
 \bibitem[{Beck(2006)}]{beck:2006}
 Beck, Sigrid. 2006.
 \newblock Intervention effects follow from focus interpretation.
-\newblock \emph{Natural Language Semantics} 14. 1--56.
+\newblock \emph{Natural Language Semantics} 14(1). 1--56.
 
 \bibitem[{Beck \& Kim(1997)}]{beck-kim:1997}
 Beck, Sigrid \& Shin-Sook Kim. 1997.
-\newblock On wh- and operator scope in {Korean}.
-\newblock \emph{Journal of East Asian Linguistics} 6. 339--384.
+\newblock On wh- and operator scope in {K}orean.
+\newblock \emph{Journal of East Asian Linguistics} 6(4). 339--384.
 
 \bibitem[{Beghelli \& Stowell(1997)}]{beghelli-stowell:1997a}
-Beghelli, Fillipo \& Tim Stowell. 1997.
+Beghelli, F. \& T.~Stowell. 1997.
 \newblock Distributivity and negation: The syntax of {\it each} and {\it
   every}.
-\newblock In Anna Szabolcsi (ed.), \emph{Ways of scope taking}. 71--107.
-  Dordrecht: Kluwer Academic Publishers.
+\newblock In A.~Szabolcsi (ed.), \emph{Ways of scope taking}. 71--107.
+  Dordrecht: Dordrecht: Kluwer Academic Publisher.
 
 \bibitem[{Bobaljik(2002)}]{bobaljik:2002}
 Bobaljik, Johnathan~David. 2002.
 \newblock A-chains at the {PF}-interface: Copies and `covert' movement.
-\newblock \emph{Natural Language and Linguistic Theory} 20. 197--267.
+\newblock \emph{Natural {L}anguage and {L}inguistic {T}heory} 20. 197--267.
 
 \bibitem[{Bo\v{s}kovi\'{c}(2005)}]{boskovic:2005}
 Bo\v{s}kovi\'{c}, \v{Z}eljko. 2005.
@@ -51,16 +54,27 @@ Bo\v{s}kovi\'{c}, \v{Z}eljko. 2005.
   phenomenon: Its syntactic sources and diversity}. 13--73. Berlin: Mouton de
   Gruyter.
 
-\bibitem[{Bruening(2007)}]{bruening:2007}
+\bibitem[{Bošković \& Nunes(2007)}]{Bovskovic-Nunes:2007}
+Bošković, Željko \& Jairo Nunes. 2007.
+\newblock The copy theory of movement: A view from pf.
+\newblock In Norbert Corver \& Jairo Nunes (eds.), \emph{The copy theory of
+  movement} Linguistics Aktuell 107. 13–74. Amsterdam/Philadelphia: John
+  Benjamins Publishing Company.
+\newblock \doi{10.1075/la.107.03bos}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1075/la.107.03bos}.
+
+\bibitem[{Bruening(2007)}]{bruening:07}
 Bruening, Benjamin. 2007.
 \newblock Wh-in-situ does not correlate with wh-indefinites or question
   particles.
-\newblock \emph{Linguistic Inquiry} 38. 139--166.
+\newblock \emph{Linguistic {I}nquiry} 38(1). pp. 139--166.
 
-\bibitem[{Butler \& Mathieu(2005)}]{butler-mathieu:2005}
-Butler, Alastair \& Eric Mathieu. 2005.
-\newblock Split-{DP}s, generalized {EPP} and visibility.
-\newblock \emph{MIT Working Papers in Linguistics} 2005. 49--57.
+\bibitem[{Butler \& de~livresi(2005)}]{Butler-Mathieu:2005}
+Butler, A. \& Combien de~livresi. 2005.
+\newblock Split-dps , generalized epp and visibility.
+\newblock In Martha McGinnis \& Norvin Richards (eds.), \emph{Perspectives on
+  phases, {MIT} working papers in {Linguistics} 49}. 49--57. Cambridge, MA:
+  MITWPL.
 
 \bibitem[{Cable(2007)}]{cable:2007}
 Cable, Seth. 2007.
@@ -69,14 +83,21 @@ Cable, Seth. 2007.
   Institute of Technology dissertation.
 
 \bibitem[{Cheng(1997)}]{cheng:1997}
-Cheng, Lisa Lai-Shen. 1997.
+Cheng, Lisa L.-S. 1997.
 \newblock \emph{On the typology of wh-questions}.
-\newblock New York: Garland.
+\newblock New York: NewYork: Garland.
+\newblock [Also 1991 Ph.D. Dissertion, MIT. Distributed by MIT Working Papers
+  in Linguistics].
 
 \bibitem[{Cheng(2009)}]{cheng:2009}
 Cheng, Lisa Lai-Shen. 2009.
 \newblock \emph{Wh}-in-situ, from the 1980s to now.
 \newblock \emph{Language and Linguistics Compass} 3(3). 767--791.
+
+\bibitem[{Chernova(2014)}]{chernova:2014}
+Chernova, Ekaterina. 2014.
+\newblock \emph{The syntax of \emph{wh}-movement in multiple (true and echo)
+  questions: A {Q}-particle approach}: Universitat de Girona dissertation.
 
 \bibitem[{Chomsky(1993)}]{chomsky:1993}
 Chomsky, Noam. 1993.
@@ -92,29 +113,32 @@ Chomsky, Noam. 2008.
   Zubizarreta (eds.), \emph{Foundational issues in linguistic theory: Essays in
   honor of {Jean-Roger Vergnaud}}. 133--166. Cambridge, MA: MIT Press.
 
-\bibitem[{Chomsky(2013)}]{chomsky:2013}
+\bibitem[{Chomsky(2013)}]{Chomsky:13}
 Chomsky, Noam. 2013.
 \newblock Problems of projection.
 \newblock \emph{Lingua} 130. 33--49.
+\newblock \doi{10.1016/j.lingua.2012.12.003}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.lingua.2012.12.003}.
+\newblock SI: Syntax and cognition: core ideas and results in syntax.
 
-\bibitem[{Chomsky(2015)}]{chomsky:2015}
+\bibitem[{Chomsky(2015)}]{chomsky:15}
 Chomsky, Noam. 2015.
 \newblock Problems of projection: Extensions.
 \newblock In Elisa~Di Domenico, Cornelia Hamann \& Simona Matteini (eds.),
-  \emph{Structures, strategies and beyond: Studies in honour of {Adriana
-  Belletti}}. 1--16. Amsterdam: John Benjamins.
+  \emph{Structures, strategies and beyond studies in honour of {A}driana
+  {B}elletti}. 1--16. Amsterdam: John Benjamins Publishing Company.
 
-\bibitem[{Denham(2000)}]{denham:2000}
+\bibitem[{Denham(2000)}]{denham:00}
 Denham, Kristin. 2000.
-\newblock Optional wh-movement in {Babine-Witsuwit'en}.
-\newblock \emph{Natural Language \& Linguistic Theory} 18. 199--251.
+\newblock Optional wh-movement in babine-witsuwit'en.
+\newblock \emph{Natural {L}anguage and {L}inguistic {T}heory} 18. 199--251.
 
 \bibitem[{Denham(1997)}]{denham:1997}
 Denham, Kristin~E. 1997.
-\newblock \emph{A minimalist account of optional wh-movement}: University of
-  Washington dissertation.
+\newblock \emph{A minimalist account of optional wh-movement}: {University of
+  Washington} dissertation.
 
-\bibitem[{Dowty \& Brodie(1984)}]{dowty-brodie:1984}
+\bibitem[{Dowty \& Brodie(1984)}]{dowty-brodie:84}
 Dowty, David \& B.~Brodie. 1984.
 \newblock A semantic analysis of `floated quantifiers' in a transformationless
   grammar.
@@ -149,12 +173,13 @@ Fanselow, Gisbert \& Damir \'Cavar. 2000.
 \bibitem[{Fox(2002)}]{fox:2002}
 Fox, Danny. 2002.
 \newblock {ACD} and the copy theory of movement.
-\newblock \emph{Linguistic Inquiry} 33(1). 63--96.
+\newblock \emph{Linguistic {I}nquiry} 33(1). 63--96.
 
 \bibitem[{Fox \& Nissenbaum(1999)}]{fox-nissenbaum:99}
 Fox, Danny \& Jon Nissenbaum. 1999.
 \newblock Extraposition and scope: A case for overt {QR}.
 \newblock \emph{Proceedings of WCCFL} 18. 132--144.
+\newblock Page span to verify.
 
 \bibitem[{Gair \& Sumangala(1991)}]{gair-sumangala:1991}
 Gair, James~W. \& Lelwala Sumangala. 1991.
@@ -180,10 +205,11 @@ Hegarty, Michael. 2005.
   Generative Grammar~79).
 \newblock Berlin: Mouton de {G}ruyter.
 
-\bibitem[{Huang(1982)}]{huang:1982}
-Huang, C. T.~James. 1982.
-\newblock \emph{Logical relations in chinese and the theory of grammar}:
-  M.I.T., Cambridge, Massachussetts dissertation.
+\bibitem[{Huang(1982)}]{Huang:1982}
+Huang, J. 1982.
+\newblock \emph{Logical relations in chinese and the theory of grammar}.
+\newblock Cambridge, Massachusetts: M.I.T., Cambridge, Massachussetts Ph.d.
+  dissertation.
 
 \bibitem[{Jeanne(1978)}]{jeanne:1978}
 Jeanne, Laverne~Masayesva. 1978.
@@ -210,7 +236,7 @@ Kishimoto, Hideki. 2005.
 \bibitem[{Koopman(1984)}]{koopman:1984}
 Koopman, Hilda. 1984.
 \newblock \emph{The syntax of verbs: From verb movement rules in the {Kru}
-  languages to universal grammar}.
+  languages to universal grammar} Studies in generative grammar 15.
 \newblock Dordrecht: Foris.
 
 \bibitem[{Kratzer(2005)}]{kratzer:2005}
@@ -222,13 +248,13 @@ Kratzer, Angelika. 2005.
 
 \bibitem[{Kuno(1973)}]{kuno:1973}
 Kuno, Susumu. 1973.
-\newblock \emph{The structure of the {Japanese} language}.
-\newblock Cambridge, Mass.: {MIT} {Press}.
+\newblock \emph{The structure of the japanese language}.
+\newblock Cambridge, Mass.: Cambridge, Massachusetts: MIT Press.
 
 \bibitem[{Miyagawa(1987)}]{miyagawa:1987}
 Miyagawa, Shigeru. 1987.
 \newblock {LF} affix raising in {Japanese}.
-\newblock \emph{Linguistic Inquiry} 18(2). 362--367.
+\newblock \emph{Linguistic {I}nquiry} 18(2). 362--367.
 
 \bibitem[{Pesetsky(1987)}]{pesetsky:1987}
 Pesetsky, David. 1987.
@@ -248,8 +274,10 @@ Reintges, Chris~H., Philip LeSourd \& Sandra Chung. 2006.
 \newblock Movement, wh-agreement, and apparent wh-in-situ.
 \newblock In Lisa Lai-Shen Cheng \& Norbert Corver (eds.), \emph{Wh-movement:
   Moving on}. 165--194. Cambridge, MA: MIT Press.
+\newblock \doi{10.7551/mitpress/7197.003.0012}.
+\newblock \urlprefix\url{http://dx.doi.org/10.7551/mitpress/7197.003.0012}.
 
-\bibitem[{Rizzi(1997)}]{rizzi:1997}
+\bibitem[{Rizzi(1997)}]{rizzi:97}
 Rizzi, Luigi. 1997.
 \newblock The fine structure of the left periphery.
 \newblock In Liliane Haegeman (ed.), \emph{Elements of grammar: Handbook of
@@ -270,7 +298,7 @@ Szabolcsi, Anna. 1997.
 \bibitem[{Tsoulas(2003)}]{tsoulas:2003}
 Tsoulas, George. 2003.
 \newblock {Floating Quantifiers as Overt Scope Markers}.
-\newblock \emph{{Korean Journal of English Language and Linguistics}} 3(2).
+\newblock \emph{{Korean Journal of English Language and Linguistics}} 3(2)(2).
   157--180.
 
 \bibitem[{Turano(1995)}]{turano:1995}
@@ -278,15 +306,9 @@ Turano, Giuseppina. 1995.
 \newblock On indefinite elements in {Albanian}.
 \newblock Unpublished ms., Florence.
 
-\bibitem[{\v{Z}eljko Bo\v{s}kovi\'{c} \& Nunes(2007)}]{boskovic-nunes:2007}
-\v{Z}eljko Bo\v{s}kovi\'{c} \& Jairo Nunes. 2007.
-\newblock The copy theory of movement: A view from {PF}.
-\newblock In \v{Z}eljko Bo\v{s}kovi\'{c} \& Jairo Nunes (eds.), \emph{The copy
-  theory of movement}. 13--74. Amsterdam/Philadelphia: John.
-
 \bibitem[{Yeo(2010)}]{yeo:2010}
 Yeo, Norman. 2010.
-\newblock \emph{Unifying optional wh-movement}: University of York
-  dissertation.
+\newblock \emph{Unifying optional wh-movement}.
+\newblock York: University of York dissertation.
 
 \end{thebibliography}
